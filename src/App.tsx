@@ -1,6 +1,5 @@
 import { Box, Typography, Divider, IconButton, Chip } from "@mui/material"
 import { Link, BrowserRouter as Router } from "react-router-dom"
-import qr from "./assets/qr.png"
 function App() {
   return (
     <Box>
@@ -14,7 +13,7 @@ function App() {
         </Typography>
           <Box sx={{height: "350px", width: "350px", background: "rgb(114, 14,158)", borderRadius: "20px", marginTop: "5px"}}>
             <center>
-              <img src={qr} alt="qr" style={{width: "300px", height: "300px", marginTop: "25px", borderRadius: "10px"}} draggable="false" />
+              <img src="https://firebasestorage.googleapis.com/v0/b/slots-8d124.appspot.com/o/IMG_20230716_192117.png?alt=media&token=0082a9ec-d4ae-4fa5-aaad-04a48283787a" alt="qr" style={{width: "300px", height: "300px", marginTop: "25px", borderRadius: "10px"}} draggable="false" />
             </center>
           </Box>
       </Box>
